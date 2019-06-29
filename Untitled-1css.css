@@ -1,0 +1,197 @@
+/* <style type ="text/css"> */ 
+body{
+    color:rgb(255, 136, 0);
+    font-family: serif;
+    font-size:25px;
+    background-color: rgb(62, 72, 161);
+    padding-top: 200px;
+    padding-right: 1000px;
+    padding-right: 500px;
+    margin-top: 100px
+
+}
+h1{
+    color: rgb(158, 152, 152);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-size: 30px;
+    background-color: rgb(235, 230, 240);text-align: center
+}
+div{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}{
+    
+.container{
+  width: 80%;
+  margin: auto;
+    overflow:hidden;}
+     /* border: 5px red solid; */
+    
+#main-header{
+    background-color: ;
+    color: #fff;}
+#navbar{
+    background-color: #333;
+    color:#fff;}
+#navbar ul{
+    padding: 0;
+    list-style: none;}
+#navbar li{
+    display:inline;}
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right:15px;}
+
+
+.button{
+    background-color: lightsteelblue;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+.button:hover{
+    background: red;
+    color: black;
+}
+
+.clr{
+    clear: both;
+}
+    
+.box-1{
+  background-color:green;
+  margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  color: black;
+    border: 5pxred solid;
+    border-width: 3px;
+    border-bottom-width:20px;
+   /* text-align: center;*/
+   /* border-bottom-style: dotted;*/
+    font: normal 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+    .box-1 ul{
+        padding:0;
+        padding-left: 20px;
+        list-style:square;
+      /*  list-style-image: url('../image/name.png'); */
+        /* list-style=none; */
+    }
+     /* .box-1 li{padding-bottom:0px; border-bottom:dotted 5px white;} */  
+    /* .box-2 li{
+        padding-bottom: 6px;
+        list-style-image: url('../logo.jpg');*/
+}
+    .box-2{
+      background-color:gainsboro;
+      margin: 0;
+      color: saddlebrown;
+            border: 5pxred solid;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        border-width: 3px;
+        border-bottom-width:20px;
+        /*border-bottom-style: dotted*/
+        padding:20px;
+        /*text-align: center;*/
+    }
+    
+    .my-form{padding:20px;}
+    .my-form .form-group{padding-bottom:15px;}
+
+    .my-form label{display:block;} 
+
+    .my-form input[type="text"], .my-form textarea{
+        padding:8px; width:100%;}  
+
+.block{
+    
+    float:left;
+    width:33.333%;
+    border:1px solid #f4f4f4;
+    box-sizing: border-box;
+    padding:10px;
+    background-color: dimgray;} 
+
+#main-block{
+    float: left;
+    width: 65%;
+    background-color: dimgray;
+    padding: 1px;
+    box-sizing: border-box;
+    border:1px solid #f4f4f4;}
+#side-bar{
+    float: right;
+    width: 35%;
+    background-color: dimgray;
+    padding: 1px;
+    box-sizing: border-box;
+    border:1px solid #f4f4f4;}
+p{
+text-align: justify;}
+
+.p-box{
+    width: auto; height: 500px; border: 1px; 
+    margin-top: 30px; position: relative; 
+    background-image: url('../amharic_letters_3d_print.jpg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: contain
+}
+
+.p-box h1{
+    position:absolute; top:100px; left:200px; }
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;}
+
+.fix-eiabc{
+    position:fixed;
+    top: 400px;
+    width:33px;
+    text-align: left;
+    
+}
+.fix-cadchair{
+    position:fixed;
+    top: 100px;
+    width: 33px;
+    text-align: left;
+}
+/*.pseudo-list li:first-child{
+    background: red;   */
+}
+/*.pseudo-list li:last-child{
+    background: red;   */
+}
+.pseudo-list li:nth-child(2){
+    background: gray;
+}
+.pseudo-list li:nth-child(even){
+    background: gray;   
+}
+.pseudo-list li:nth-child(odd){
+    background: yellow;
+    body{text-justify: auto;} h1{color:red;  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; fontstyle: italic; padding: 10px;     text-align: left;} h2{c:red; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; fontstyle: italic; margin-right: 100px; margin-left: 100px; padding: 10px;} date{color:white; font-size: 5; background-color: cadetblue; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;} 
+ 
+p{color: blue; font-weight: 10; text-align: justify; width: 300px; padding: 10px; margin-right: 100px; margin-left: 100px;} 
+ 
+.projects{color: white; background-color:gray; padding: 10px;         text-align: justify;         float:left;         width:50%;         padding:0px;         box-sizing:border-box;     }             button{ 
+ 
+                position: relative;                 color: white;                 font-size: 20px;                 background:gray;                 border:none;                 outline: none;                 left: 0%;                 width: 260px;                 text-align: left;             }             #sidebar{                 text-align: left;                 float:right;                 width:50%;                                  background:none;                 color:#fff; 
+                padding:0px;                 box-sizing:border-box;             } 
+ 
+.dev1{     fill:black;  } .dev2{     fill:black;      } .removed{ display: none; } 
+    
